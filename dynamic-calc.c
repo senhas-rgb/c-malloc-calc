@@ -13,7 +13,7 @@ int main() {
         return 1;
     }
 
-    printf("Enter a operater: \n");
+    printf("Enter an operator: \n");
     scanf("%c", pOp);
     while(getchar() != '\n');
     printf("Enter number of numbers: \n");
