@@ -33,28 +33,28 @@ int main() {
     switch (*pOp)
     {
     case '/':
-        for (int i = 0; i < count; i++) {
+        for (int i = 1; i < count; i++) {
             result = (float) result / (float) pNumbers[i];
         }
         printf("Result: %f", result);
         break;
     
     case '*':
-        for (int i = 0; i < count; i++) {
+        for (int i = 1; i < count; i++) {
             result = (float) result * (float) pNumbers[i];
         }
         printf("Result: %f", result);
         break;
 
     case '+':
-        for (int i = 0; i < count; i++) {
+        for (int i = 1; i < count; i++) {
             result = (float) result + (float) pNumbers[i];
         }
         printf("Result: %f", result);
         break;
 
     case '-':
-        for (int i = 0; i < count; i++) {
+        for (int i = 1; i < count; i++) {
             result = (float) result - (float) pNumbers[i];
         }
         printf("Result: %f", result);
