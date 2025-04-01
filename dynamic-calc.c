@@ -13,7 +13,7 @@ int main() {
         return 1;
     }
 
-    printf("Enter a operater: \n");
+    printf("Enter an operator: \n");
     scanf("%c", pOp);
     while(getchar() != '\n');
     printf("Enter number of numbers: \n");
@@ -33,28 +33,28 @@ int main() {
     switch (*pOp)
     {
     case '/':
-        for (int i = 0; i < count; i++) {
+        for (int i = 1; i < count; i++) {
             result = (float) result / (float) pNumbers[i];
         }
         printf("Result: %f", result);
         break;
     
     case '*':
-        for (int i = 0; i < count; i++) {
+        for (int i = 1; i < count; i++) {
             result = (float) result * (float) pNumbers[i];
         }
         printf("Result: %f", result);
         break;
 
     case '+':
-        for (int i = 0; i < count; i++) {
+        for (int i = 1; i < count; i++) {
             result = (float) result + (float) pNumbers[i];
         }
         printf("Result: %f", result);
         break;
 
     case '-':
-        for (int i = 0; i < count; i++) {
+        for (int i = 1; i < count; i++) {
             result = (float) result - (float) pNumbers[i];
         }
         printf("Result: %f", result);
